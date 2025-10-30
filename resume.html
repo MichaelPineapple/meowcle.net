@@ -4,10 +4,17 @@
     
     <head>
         <title>Michael Wilson's Resume</title>
-        <link rel="stylesheet" href="css/resume.css">
+        <link rel="stylesheet" href="style/resume.css">
+        <link rel="stylesheet" href="style/dark.css" id="themestyle">
+        <script src="script/resume.js"></script>
     </head>
     
     <body>
+        
+        <label class="switch">
+          <input id="toggle" type="checkbox" checked="true" onclick="toggleTheme()">
+          <span class="slider"></span>
+        </label>
 
         <h1>Michael W. Wilson</h1>
         <p>
@@ -74,7 +81,7 @@
         Teaching Assistant @ <a href="https://www.unf.edu">University of North Florida</a><br>
         Aug 2018 &ndash; Aug 2019<br>
         <ul>
-            <li>Teaching Assistant for "Computer Architecture" and "Programming Funamentals."</li>
+            <li>Teaching Assistant for "Computer Architecture" and "Programming Fundamentals."</li>
             <li>Instructed students in the C programming language.</li>
             <li>Proctored and graded assignments.</li>
         </ul>
