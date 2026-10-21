@@ -1,3 +1,6 @@
 [submodule "WizlonTime"]
 	path = WizlonTime
 	url = https://github.com/MichaelPineapple/WizlonTime
+[submodule "Spheem"]
+	path = Spheem
+	url = https://github.com/MichaelPineapple/Spheem
